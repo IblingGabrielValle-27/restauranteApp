@@ -48,31 +48,31 @@ const ClienteHome = () => {
     {
       id: '1',
       title: 'Reservar Mesa',
-      image: 'https://via.placeholder.com/50?text=Table',
+      image: 'https://i.pinimg.com/originals/7a/ae/3b/7aae3bcb24338b123b4c0805ee20da89.jpg',
       route: 'ReservarMesa',
     },
     {
       id: '2',
       title: 'Hacer Pedido',
-      image: 'https://via.placeholder.com/50?text=Order',
+      image: 'https://i.pinimg.com/originals/7a/ae/3b/7aae3bcb24338b123b4c0805ee20da89.jpg',
       route: 'HacerPedido',
     },
     {
       id: '3',
       title: 'Estadísticas de Consumo',
-      image: 'https://via.placeholder.com/50?text=Stats',
+      image: 'https://i.pinimg.com/originals/7a/ae/3b/7aae3bcb24338b123b4c0805ee20da89.jpg',
       route: 'EstadisticasConsumo',
     },
     {
       id: '4',
       title: 'Formas de Pago',
-      image: 'https://via.placeholder.com/50?text=Payment',
+      image: 'https://i.pinimg.com/originals/7a/ae/3b/7aae3bcb24338b123b4c0805ee20da89.jpg',
       route: 'FormasPago',
     },
     {
       id: '5',
       title: 'Ver Menú',
-      image: 'https://via.placeholder.com/50?text=Menu',
+      image: 'https://i.pinimg.com/originals/7a/ae/3b/7aae3bcb24338b123b4c0805ee20da89.jpg',
       route: 'Menu',
     },
   ];
@@ -101,7 +101,7 @@ const ClienteHome = () => {
         <Text style={styles.title}>Bienvenido, Cliente</Text>
         <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>
           <Image
-            source={{ uri: 'https://via.placeholder.com/24?text=Logout' }}
+            source={{ uri: 'https://i.pinimg.com/originals/7a/ae/3b/7aae3bcb24338b123b4c0805ee20da89.jpg' }}
             style={styles.logoutImage}
             resizeMode="contain"
           />
